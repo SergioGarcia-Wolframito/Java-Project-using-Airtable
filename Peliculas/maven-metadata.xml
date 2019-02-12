@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<project>
+  
+  <build>
+    [...]
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+    
+  </build>
+  
+</project>
+
+
+  <groupId>com.sybit</groupId>
+  <artifactId>airtable.java</artifactId>
+  <version>0.2.0</version>
+  <versioning>
+    <latest>0.2.0</latest>
+    <release>0.2.0</release>
+    <versions>
+      <version>0.1</version>
+      <version>0.1.2</version>
+      <version>0.1.3.j</version>
+      <version>0.1.3.m</version>
+      <version>0.1.3.n</version>
+      <version>0.1.4</version>
+      <version>0.1.5</version>
+      <version>0.2.0</version>
+    </versions>
+    <lastUpdated>20170918093802</lastUpdated>
+  </versioning>
+  <dependency>
+    <groupId>com.mashape.unirest</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>1.4.9</version>
+</dependency>
+<dependency>
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.11</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>commons-io</groupId>
+  <artifactId>commons-io</artifactId>
+  <version>2.4</version>
+  <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.someexternallib</groupId>
+    <artifactId>someexternallibartifact</artifactId>
+    <version>...</version>
+
+    <exclusions>
+       <exclusion> 
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+       </exclusion>
+       <exclusion> 
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+      </exclusion>
+    </exclusions> 
+    
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.7.25</version>
+    <scope>test</scope>
+    
+    <groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<packaging>bundle</packaging>
+	<name>Apache Log4j</name>
+	<version>1.2.17</version>
+	<description>Apache Log4j 1.2</description>
+	</dependency>
+    
+    
+    
+</dependency>
+</metadata>
